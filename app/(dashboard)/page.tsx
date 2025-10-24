@@ -1,6 +1,3 @@
-export const dynamic = 'force-dynamic'; // don't try to prerender at build
-// or: export const revalidate = 0;
-
 'use client';
 import { useEffect, useState } from 'react';
 

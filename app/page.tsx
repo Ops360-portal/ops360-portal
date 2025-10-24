@@ -1,4 +1,5 @@
-export const dynamic = 'force-dynamic'; // don't try to prerender at build
+export const dynamic = 'force-dynamic'; // or: export const revalidate = 0
+
 // or: export const revalidate = 0;
 
 import Dashboard from './(dashboard)/page';
